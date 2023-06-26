@@ -1,0 +1,99 @@
+/* navbar start */
+    nav .navbar{
+        background-color: #000000;
+        /* position: absolute; */
+        top: 0;
+        width: 100%;
+    }
+    
+    /* nav where */
+    nav .style{
+        background-color: #00000097;
+        position: absolute;
+    }
+
+    /* hover */
+    nav .navbar .nav .nav-item .menu:hover{
+        color: #ff9f0d;
+        transition: 500ms;
+        border-bottom: 1px solid white;
+    }
+    nav .navbar .nav .nav-item .active{
+        color: #ff9f0d;
+    }
+/* navbar end */
+
+/* home start */
+
+    /* hero start */
+        /* btn */
+        .hero .button .btn-a{
+            background-color: #ff9a0d;
+            color: #000000;
+        }
+        .hero .button .btn-a:hover{
+            transition: 300ms;
+            color: #fff;
+            border-color: #fff;
+            background-color: black;
+        }
+        .hero .button .btn-b{
+            border-color: #ff9a0d;
+            color: #ff8a0d;
+        }
+        .hero .button .btn-b:hover{
+            transition: 300ms;
+            border-color: #fff;
+            color: #000000;
+            background-color: #ff8a0d;
+        }
+    /* hero end */
+
+    /* content1 start */
+    /* content1 end */
+
+    /* content 2 start */
+    /* content 2 end */
+
+    /* content 3 start */
+    /* content 3 end */
+
+    /* footer start */
+    /* footer end */
+
+/* home end */
+
+
+/* menu start */
+
+    /* menu-1 start */
+    .menu-1 .item .font .title{
+        font-weight: 500;
+    }
+    .menu-1 .item .font .body{
+        font-weight: 500;
+        color: #ff9f0d;
+    }
+    .menu-1 .item .gambar img:hover{
+        /* -webkit-filter: blur(1px); */
+        /* filter: blur(1px); */
+        -webkit-filter: opacity(80%);
+        filter: opacity(80%);
+        transition: 300ms;
+    }
+    /* menu-1 end */
+
+/* menu end */
+
+/* about start */
+
+    /* about-1 start */
+    .hero-about-1{
+        height: 550px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.559), rgba(0, 0, 0, 0.616)), url(asset/img/bg/bg-2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    /* about-1 end */
+
+/* about end */
